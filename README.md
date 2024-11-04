@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <style>
-    main {
-      padding: 20px;
-      display: block;
-      min-height: 100vh;
-      min-width: 100vh;
-    }
-    h2 {
-      text-align: center;
-      color: #004aad;
-    }
-    .comment-section {
-      max-height: 50vh;
-      max-width: 100%;
-      background-color: #004aad;
-      overflow-y: scroll;
-    }
-    .comment {
-     height: 10%;
-      padding: 2%;
-      margin: 2%;
-      background-color: #ffff;
-      color: black;
-    }
-  </style>
-  <body>
-    <h2>Scrollable HTML Comment Box Code</h2>
-    <main>
-      <div class="comment-section">
-        <div class="comment">This is first comment.</div>
-        <div class="comment">This is second comment.</div>
-        <div class="comment">This is third comment.</div>
-        <div class="comment">This is fourth comment.</div>
-        <div class="comment">This is fifth comment.</div>
-        <div class="comment">This is sixth comment.</div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema: Administrarea repozitoriului. Sarcini cu administrarea repozitoriului.</title>
+    <style>
+        .container {
+            width: 1300px;
+            height: 500px;
+            margin: 100px auto;
+            background-color: rgb(68, 68, 68);
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            border-radius: 5px;
+        }
+
+        .block {
+            background-color: grey;
+            color: white;
+            width: 100px;
+            height: 100px;
+            font-size: 80px;
+            text-align: center;
+            margin-top: 100px;
+            border-radius: 10px;
+
+        }
+
+        .block:hover {
+            cursor: pointer;
+            transition: ease .4s;
+            transform: rotate(360deg);
+            color: grey;
+            background-color: rgb(29, 29, 29);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="block">1</div>
+        <div class="block">2</div>
+        <div class="block">3</div>
+        <div class="block">4</div>
+        <div class="block">5</div>
     </div>
-    </main>
-  </body>
+</body>
+
 </html>
